@@ -106,7 +106,7 @@ class ListFiles extends ListRecords
         };
     }
     
-    protected function getTableRecords(): Collection
+    public function getTableRecords(): Collection
     {
         $disk = $this->currentDisk;
         $path = $this->currentPath;
