@@ -4,7 +4,7 @@ namespace Webazin\FileExplorer;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
-use Webazin\FileExplorer\Filament\FileManagerResource;
+use Webazin\FileExplorer\Resources\FileManagerResource;
 
 class FileExplorerPlugin implements Plugin
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Webazin\FileExplorer\Filament;
+namespace Webazin\FileExplorer\Resources;
 
 use Filament\Forms;
 use Filament\Forms\Form;
@@ -10,7 +10,7 @@ use Filament\Tables\Table;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Webazin\FileExplorer\FileExplorerPlugin;
-use Webazin\FileExplorer\Filament\FileManagerResource\Pages;
+use Webazin\FileExplorer\Resources\FileManagerResource\Pages;
 
 class FileManagerResource extends Resource
 {

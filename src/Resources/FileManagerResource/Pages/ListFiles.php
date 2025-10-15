@@ -1,14 +1,14 @@
 <?php
 
-namespace Webazin\FileExplorer\Filament\FileManagerResource\Pages;
+namespace Webazin\FileExplorer\Resources\FileManagerResource\Pages;
 
 use Filament\Resources\Pages\ListRecords;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Facades\Storage;
 use Webazin\FileExplorer\FileExplorerPlugin;
-use Webazin\FileExplorer\Filament\FileManagerResource;
 use Filament\Actions;
 use Illuminate\Support\Collection;
+use Webazin\FileExplorer\Resources\FileManagerResource;
 
 class ListFiles extends ListRecords
 {
